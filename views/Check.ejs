@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check</title>
+</head>
+<body>
+    <% for (let result of results) { %>
+        <!-- Display data from both student and mentor tables -->
+        <div><%= result.student_id %></div>
+        <div><%= result.student_name %></div>
+        <div><%= result.dob %></div>
+        <div><%= result.enroll %></div>
+        <div><%= result.mentor_name %></div>
+    <% } %>
+</body>
+</html>
